@@ -27,6 +27,6 @@ class CacheTest extends TestCase
     $Cache = new Ginge\Cache\Cache();
     $Cache->flushCache();
 
-    $this->assertSame([], array_diff(scandir(Ginge\Data\Config::get('CACHE_PATH')), array('..', '.')));
+    $this->assertSame([], array_diff(scandir(Ginge\Data\Config::get('CACHE_PATH')), array('..', '.', '.gitignore')));
   }
 }
