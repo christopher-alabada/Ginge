@@ -64,10 +64,6 @@ class Variable
 
         // just a regular variable
         } else {
-          // access array data via dot notation
-          // if (strpos($variable[1], '.') !== false) {
-          //   $variable[1] = explode('.', $variable[1]);
-          // }
           $replace = Data::get($variable[1]);
         }
 
