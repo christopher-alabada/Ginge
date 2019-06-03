@@ -1,0 +1,1 @@
+{!header}{!template: nickname_tpl}

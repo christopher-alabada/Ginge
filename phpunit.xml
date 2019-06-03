@@ -1,0 +1,41 @@
+<phpunit
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  bootstrap="src/Autoload.php"
+>
+  <testsuites>
+    <testsuite name="Basic">
+      <directory>tests/</directory>
+      <file>GingeTest.php</file>
+    </testsuite>
+    <testsuite name="Data">
+      <directory>tests/</directory>
+      <file>DataTest.php</file>
+    </testsuite>
+    <testsuite name="IfStatement">
+      <directory>tests/</directory>
+      <file>IfStatementTest.php</file>
+    </testsuite>
+    <testsuite name="ForeachStatement">
+      <directory>tests/</directory>
+      <file>ForeachStatementTest.php</file>
+    </testsuite>
+    <testsuite name="TemplateTest">
+      <directory>tests/</directory>
+      <file>TemplateTest.php</file>
+    </testsuite>
+    <testsuite name="FunctionsTest">
+      <directory>tests/</directory>
+      <file>FunctionsTest.php</file>
+    </testsuite>
+    <testsuite name="CacheTest">
+      <directory>tests/</directory>
+      <file>CacheTest.php</file>
+    </testsuite>
+    <testsuite name="CompleteTest">
+      <directory>tests/</directory>
+      <file>CompleteTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
